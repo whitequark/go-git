@@ -6,13 +6,13 @@ import (
 	"io"
 	"time"
 
-	"github.com/go-git/go-git/v6/config"
-	"github.com/go-git/go-git/v6/plumbing"
-	formatcfg "github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/plumbing/format/index"
-	"github.com/go-git/go-git/v6/plumbing/storer"
-	"github.com/go-git/go-git/v6/storage"
-	"github.com/go-git/go-git/v6/utils/ioutil"
+	"github.com/whitequark/go-git-git/v6/plumbing"
+	formatcfg "github.com/whitequark/go-git-git/v6/plumbing/format/config"
+	"github.com/whitequark/go-git-git/v6/plumbing/format/index"
+	"github.com/whitequark/go-git-git/v6/plumbing/storer"
+	"github.com/whitequark/go-git-git/v6/storage"
+	"github.com/whitequark/go-git-git/v6/utils/ioutil"
+	"github.com/whitequark/go-git/v6/config"
 )
 
 var ErrUnsupportedObjectType = fmt.Errorf("unsupported object type")

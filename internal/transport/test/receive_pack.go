@@ -11,16 +11,16 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/format/packfile"
-	"github.com/go-git/go-git/v6/plumbing/protocol/packp"
-	"github.com/go-git/go-git/v6/plumbing/protocol/packp/capability"
-	"github.com/go-git/go-git/v6/plumbing/transport"
-	"github.com/go-git/go-git/v6/storage"
-	"github.com/go-git/go-git/v6/storage/memory"
 	"github.com/stretchr/testify/suite"
+	"github.com/whitequark/go-git-git/v6/plumbing/format/packfile"
+	"github.com/whitequark/go-git-git/v6/plumbing/protocol/packp"
+	"github.com/whitequark/go-git-git/v6/plumbing/protocol/packp/capability"
+	"github.com/whitequark/go-git-git/v6/plumbing/transport"
+	"github.com/whitequark/go-git-git/v6/storage"
+	"github.com/whitequark/go-git-git/v6/storage/memory"
+	"github.com/whitequark/go-git/v6/plumbing"
 
-	fixtures "github.com/go-git/go-git-fixtures/v5"
+	fixtures "github.com/whitequark/go-git-git-fixtures/v5"
 )
 
 type ReceivePackSuite struct {

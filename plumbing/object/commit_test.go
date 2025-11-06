@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	fixtures "github.com/go-git/go-git-fixtures/v5"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/cache"
 	"github.com/stretchr/testify/suite"
+	fixtures "github.com/whitequark/go-git-fixtures/v5"
+	"github.com/whitequark/go-git-git/v6/plumbing"
+	"github.com/whitequark/go-git-git/v6/plumbing/cache"
 
-	"github.com/go-git/go-git/v6/storage/filesystem"
+	"github.com/whitequark/go-git-git/v6/storage/filesystem"
 )
 
 type SuiteCommit struct {
@@ -572,7 +572,7 @@ author John Doe <john.doe@example.com> 1755280730 -0700
 committer John Doe <john.doe@example.com> 1755280730 -0700
 change-id wxmuynokkzxmuwxwvnnpnptoyuypknwv
 gpgsig -----BEGIN PGP SIGNATURE-----
- 
+
  iHUEABMIAB0WIQSZpnSpGKbQbDaLe5iiNQl48cTY5gUCaJ91XQAKCRCiNQl48cTY
  5vCYAP9Sf1yV9oUviRIxEA+4rsGIx0hI6kqFajJ/3TtBjyCTggD+PFnKOxdXeFL2
  GLwcCzFIsmQmkLxuLypsg+vueDSLpsM=
@@ -629,20 +629,20 @@ initial commit
 	s.NoError(err)
 
 	s.Equal(commit.ExtraHeaders, []ExtraHeader{
-		ExtraHeader {
-			Key: "continuedheader",
+		ExtraHeader{
+			Key:   "continuedheader",
 			Value: "to be\ncontinued",
 		},
-		ExtraHeader {
-			Key: "continuedheader",
+		ExtraHeader{
+			Key:   "continuedheader",
 			Value: "to be\ncontinued\non\nmore than\na single line",
 		},
-		ExtraHeader {
-			Key: "simpleflag",
+		ExtraHeader{
+			Key:   "simpleflag",
 			Value: "",
 		},
-		ExtraHeader {
-			Key: "",
+		ExtraHeader{
+			Key:   "",
 			Value: "value no key",
 		},
 	})

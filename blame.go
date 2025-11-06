@@ -10,10 +10,10 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/object"
-	"github.com/go-git/go-git/v6/utils/diff"
 	"github.com/sergi/go-diff/diffmatchpatch"
+	"github.com/whitequark/go-git-git/v6/plumbing/object"
+	"github.com/whitequark/go-git-git/v6/utils/diff"
+	"github.com/whitequark/go-git/v6/plumbing"
 )
 
 // BlameResult represents the result of a Blame operation.

@@ -6,15 +6,15 @@ import (
 
 	"github.com/go-git/go-billy/v6"
 	"github.com/go-git/go-billy/v6/util"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/cache"
-	commitgraph "github.com/go-git/go-git/v6/plumbing/format/commitgraph"
-	"github.com/go-git/go-git/v6/plumbing/format/packfile"
-	"github.com/go-git/go-git/v6/plumbing/object"
-	"github.com/go-git/go-git/v6/storage/filesystem"
 	"github.com/stretchr/testify/suite"
+	"github.com/whitequark/go-git-git/v6/plumbing/cache"
+	commitgraph "github.com/whitequark/go-git-git/v6/plumbing/format/commitgraph"
+	"github.com/whitequark/go-git-git/v6/plumbing/format/packfile"
+	"github.com/whitequark/go-git-git/v6/plumbing/object"
+	"github.com/whitequark/go-git-git/v6/storage/filesystem"
+	"github.com/whitequark/go-git/v6/plumbing"
 
-	fixtures "github.com/go-git/go-git-fixtures/v5"
+	fixtures "github.com/whitequark/go-git-git-fixtures/v5"
 )
 
 type CommitgraphSuite struct {

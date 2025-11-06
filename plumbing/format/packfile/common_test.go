@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/storage/memory"
 	"github.com/stretchr/testify/assert"
+	"github.com/whitequark/go-git-git/v6/storage/memory"
+	"github.com/whitequark/go-git/v6/plumbing"
 )
 
 func TestEmptyUpdateObjectStorage(t *testing.T) {

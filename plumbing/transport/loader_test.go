@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	"github.com/go-git/go-billy/v6/osfs"
-	"github.com/go-git/go-git/v6/storage"
-	"github.com/go-git/go-git/v6/storage/filesystem"
-	"github.com/go-git/go-git/v6/storage/memory"
 	"github.com/stretchr/testify/suite"
+	"github.com/whitequark/go-git-git/v6/storage/filesystem"
+	"github.com/whitequark/go-git-git/v6/storage/memory"
+	"github.com/whitequark/go-git/v6/storage"
 )
 
 type loaderSuiteRepo struct {

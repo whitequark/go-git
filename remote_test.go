@@ -16,18 +16,18 @@ import (
 	"github.com/go-git/go-billy/v6/util"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/go-git/go-git/v6/config"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/cache"
-	"github.com/go-git/go-git/v6/plumbing/object"
-	"github.com/go-git/go-git/v6/plumbing/protocol/packp"
-	"github.com/go-git/go-git/v6/plumbing/protocol/packp/capability"
-	"github.com/go-git/go-git/v6/plumbing/storer"
-	"github.com/go-git/go-git/v6/storage"
-	"github.com/go-git/go-git/v6/storage/filesystem"
-	"github.com/go-git/go-git/v6/storage/memory"
+	"github.com/whitequark/go-git-git/v6/plumbing"
+	"github.com/whitequark/go-git-git/v6/plumbing/cache"
+	"github.com/whitequark/go-git-git/v6/plumbing/object"
+	"github.com/whitequark/go-git-git/v6/plumbing/protocol/packp"
+	"github.com/whitequark/go-git-git/v6/plumbing/protocol/packp/capability"
+	"github.com/whitequark/go-git-git/v6/plumbing/storer"
+	"github.com/whitequark/go-git-git/v6/storage"
+	"github.com/whitequark/go-git-git/v6/storage/filesystem"
+	"github.com/whitequark/go-git-git/v6/storage/memory"
+	"github.com/whitequark/go-git/v6/config"
 
-	fixtures "github.com/go-git/go-git-fixtures/v5"
+	fixtures "github.com/whitequark/go-git-git-fixtures/v5"
 )
 
 type RemoteSuite struct {

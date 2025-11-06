@@ -16,11 +16,11 @@ import (
 	"github.com/go-git/go-billy/v6/memfs"
 	"github.com/go-git/go-billy/v6/osfs"
 	"github.com/go-git/go-billy/v6/util"
-	fixtures "github.com/go-git/go-git-fixtures/v5"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/storage"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
+	fixtures "github.com/whitequark/go-git-fixtures/v5"
+	"github.com/whitequark/go-git-git/v6/plumbing"
+	"github.com/whitequark/go-git-git/v6/storage"
 )
 
 type SuiteDotGit struct {

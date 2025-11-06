@@ -7,17 +7,17 @@ import (
 	"io"
 	"math"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/format/packfile"
-	"github.com/go-git/go-git/v6/plumbing/format/pktline"
-	"github.com/go-git/go-git/v6/plumbing/object"
-	"github.com/go-git/go-git/v6/plumbing/protocol"
-	"github.com/go-git/go-git/v6/plumbing/protocol/packp"
-	"github.com/go-git/go-git/v6/plumbing/protocol/packp/capability"
-	"github.com/go-git/go-git/v6/plumbing/protocol/packp/sideband"
-	"github.com/go-git/go-git/v6/plumbing/revlist"
-	"github.com/go-git/go-git/v6/storage"
-	"github.com/go-git/go-git/v6/utils/ioutil"
+	"github.com/whitequark/go-git-git/v6/plumbing/format/packfile"
+	"github.com/whitequark/go-git-git/v6/plumbing/format/pktline"
+	"github.com/whitequark/go-git-git/v6/plumbing/object"
+	"github.com/whitequark/go-git-git/v6/plumbing/protocol"
+	"github.com/whitequark/go-git-git/v6/plumbing/protocol/packp"
+	"github.com/whitequark/go-git-git/v6/plumbing/protocol/packp/capability"
+	"github.com/whitequark/go-git-git/v6/plumbing/protocol/packp/sideband"
+	"github.com/whitequark/go-git-git/v6/plumbing/revlist"
+	"github.com/whitequark/go-git-git/v6/storage"
+	"github.com/whitequark/go-git-git/v6/utils/ioutil"
+	"github.com/whitequark/go-git/v6/plumbing"
 )
 
 // UploadPackOptions is a set of options for the UploadPack service.

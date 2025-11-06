@@ -5,9 +5,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/go-git/go-git/v6/plumbing/format/pktline"
-	"github.com/go-git/go-git/v6/plumbing/protocol"
 	"github.com/stretchr/testify/assert"
+	"github.com/whitequark/go-git-git/v6/plumbing/protocol"
+	"github.com/whitequark/go-git/v6/plumbing/format/pktline"
 )
 
 func TestDiscoverVersion(t *testing.T) {

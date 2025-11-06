@@ -21,10 +21,10 @@ import (
 	"runtime"
 	"strings"
 
-	giturl "github.com/go-git/go-git/v6/internal/url"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/protocol"
-	"github.com/go-git/go-git/v6/storage"
+	"github.com/whitequark/go-git-git/v6/plumbing"
+	"github.com/whitequark/go-git-git/v6/plumbing/protocol"
+	"github.com/whitequark/go-git-git/v6/storage"
+	giturl "github.com/whitequark/go-git/v6/internal/url"
 )
 
 var (

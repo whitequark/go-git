@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/go-git/go-git/v6"
-	. "github.com/go-git/go-git/v6/_examples"
+	. "github.com/whitequark/go-git-git/v6/_examples"
+	"github.com/whitequark/go-git/v6"
 )
 
 // Basic example of how to clone a repository including a submodule and

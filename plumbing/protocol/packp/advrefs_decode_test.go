@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/format/pktline"
-	"github.com/go-git/go-git/v6/plumbing/protocol/packp/capability"
 	"github.com/stretchr/testify/suite"
+	"github.com/whitequark/go-git-git/v6/plumbing/format/pktline"
+	"github.com/whitequark/go-git-git/v6/plumbing/protocol/packp/capability"
+	"github.com/whitequark/go-git/v6/plumbing"
 )
 
 type AdvRefsDecodeSuite struct {

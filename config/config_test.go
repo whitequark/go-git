@@ -8,12 +8,12 @@ import (
 
 	"github.com/go-git/go-billy/v6/osfs"
 	"github.com/go-git/go-billy/v6/util"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/plumbing/protocol"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
+	"github.com/whitequark/go-git-git/v6/plumbing/format/config"
+	"github.com/whitequark/go-git-git/v6/plumbing/protocol"
+	"github.com/whitequark/go-git/v6/plumbing"
 )
 
 type ConfigSuite struct {
@@ -467,7 +467,7 @@ func (s *ConfigSuite) TestUnmarshalRemotesUnnamedFirst() {
   url = https://github.com/CLBRITTON2/go-git.git
   fetch = +refs/heads/*:refs/remotes/origin/*
 [remote "upstream"]
-	url = https://github.com/go-git/go-git.git
+	url = https://github.com/whitequark/go-git-git.git
 	fetch = +refs/heads/*:refs/remotes/upstream/*
 	`)
 
@@ -482,14 +482,14 @@ func (s *ConfigSuite) TestUnmarshalRemotesUnnamedFirst() {
 
 	namedRemote, ok := cfg.Remotes["upstream"]
 	s.True(ok, "Expected named remote 'upstream' to be present")
-	s.Equal([]string{"https://github.com/go-git/go-git.git"}, namedRemote.URLs)
+	s.Equal([]string{"https://github.com/whitequark/go-git-git.git"}, namedRemote.URLs)
 	s.Equal([]RefSpec{"+refs/heads/*:refs/remotes/upstream/*"}, namedRemote.Fetch)
 }
 
 func (s *ConfigSuite) TestUnmarshalRemotesNamedFirst() {
 	input := []byte(`
 [remote "upstream"]
-	url = https://github.com/go-git/go-git.git
+	url = https://github.com/whitequark/go-git-git.git
 	fetch = +refs/heads/*:refs/remotes/upstream/*
 [remote ""]
   url = https://github.com/CLBRITTON2/go-git.git
@@ -502,7 +502,7 @@ func (s *ConfigSuite) TestUnmarshalRemotesNamedFirst() {
 
 	namedRemote, ok := cfg.Remotes["upstream"]
 	s.True(ok, "Expected a named remote 'upstream' to be present")
-	s.Equal([]string{"https://github.com/go-git/go-git.git"}, namedRemote.URLs)
+	s.Equal([]string{"https://github.com/whitequark/go-git-git.git"}, namedRemote.URLs)
 	s.Equal([]RefSpec{"+refs/heads/*:refs/remotes/upstream/*"}, namedRemote.Fetch)
 
 	unnamedRemote, ok := cfg.Remotes[""]

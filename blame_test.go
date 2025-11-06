@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/object"
 	"github.com/stretchr/testify/suite"
+	"github.com/whitequark/go-git-git/v6/plumbing/object"
+	"github.com/whitequark/go-git/v6/plumbing"
 
-	fixtures "github.com/go-git/go-git-fixtures/v5"
+	fixtures "github.com/whitequark/go-git-git-fixtures/v5"
 )
 
 type BlameSuite struct {

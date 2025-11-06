@@ -5,12 +5,12 @@ import (
 	"testing"
 
 	"github.com/go-git/go-billy/v6/memfs"
-	"github.com/go-git/go-git/v6/config"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/storage/memory"
 	"github.com/stretchr/testify/suite"
+	"github.com/whitequark/go-git-git/v6/plumbing"
+	"github.com/whitequark/go-git-git/v6/storage/memory"
+	"github.com/whitequark/go-git/v6/config"
 
-	fixtures "github.com/go-git/go-git-fixtures/v5"
+	fixtures "github.com/whitequark/go-git-git-fixtures/v5"
 )
 
 type SubmoduleSuite struct {

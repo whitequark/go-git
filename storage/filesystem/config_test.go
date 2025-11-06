@@ -6,10 +6,10 @@ import (
 
 	"github.com/go-git/go-billy/v6/osfs"
 	"github.com/go-git/go-billy/v6/util"
-	fixtures "github.com/go-git/go-git-fixtures/v5"
-	"github.com/go-git/go-git/v6/config"
-	"github.com/go-git/go-git/v6/storage/filesystem/dotgit"
 	"github.com/stretchr/testify/suite"
+	fixtures "github.com/whitequark/go-git-fixtures/v5"
+	"github.com/whitequark/go-git-git/v6/config"
+	"github.com/whitequark/go-git-git/v6/storage/filesystem/dotgit"
 )
 
 type ConfigSuite struct {

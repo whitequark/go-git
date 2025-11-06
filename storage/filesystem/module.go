@@ -1,9 +1,9 @@
 package filesystem
 
 import (
-	"github.com/go-git/go-git/v6/plumbing/cache"
-	"github.com/go-git/go-git/v6/storage"
-	"github.com/go-git/go-git/v6/storage/filesystem/dotgit"
+	"github.com/whitequark/go-git-git/v6/storage"
+	"github.com/whitequark/go-git-git/v6/storage/filesystem/dotgit"
+	"github.com/whitequark/go-git/v6/plumbing/cache"
 )
 
 type ModuleStorage struct {

@@ -8,13 +8,13 @@ import (
 	"sync"
 
 	billy "github.com/go-git/go-billy/v6"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/cache"
-	format "github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/plumbing/format/idxfile"
-	"github.com/go-git/go-git/v6/plumbing/storer"
-	"github.com/go-git/go-git/v6/utils/ioutil"
-	gogitsync "github.com/go-git/go-git/v6/utils/sync"
+	"github.com/whitequark/go-git-git/v6/plumbing/cache"
+	format "github.com/whitequark/go-git-git/v6/plumbing/format/config"
+	"github.com/whitequark/go-git-git/v6/plumbing/format/idxfile"
+	"github.com/whitequark/go-git-git/v6/plumbing/storer"
+	"github.com/whitequark/go-git-git/v6/utils/ioutil"
+	gogitsync "github.com/whitequark/go-git-git/v6/utils/sync"
+	"github.com/whitequark/go-git/v6/plumbing"
 )
 
 var (

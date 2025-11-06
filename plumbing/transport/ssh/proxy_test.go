@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	"github.com/armon/go-socks5"
-	"github.com/go-git/go-git/v6/internal/transport/test"
-	"github.com/go-git/go-git/v6/plumbing/transport"
 	"github.com/stretchr/testify/suite"
+	"github.com/whitequark/go-git-git/v6/plumbing/transport"
+	"github.com/whitequark/go-git/v6/internal/transport/test"
 
 	stdssh "golang.org/x/crypto/ssh"
 )

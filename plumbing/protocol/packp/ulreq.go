@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/protocol/packp/capability"
+	"github.com/whitequark/go-git-git/v6/plumbing/protocol/packp/capability"
+	"github.com/whitequark/go-git/v6/plumbing"
 )
 
 // UploadRequest values represent the information transmitted on a

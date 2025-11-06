@@ -6,12 +6,12 @@ import (
 	"io"
 	"testing"
 
-	fixtures "github.com/go-git/go-git-fixtures/v5"
-	"github.com/go-git/go-git/v6/plumbing/cache"
-	"github.com/go-git/go-git/v6/storage"
-	"github.com/go-git/go-git/v6/storage/filesystem"
-	"github.com/go-git/go-git/v6/utils/ioutil"
 	"github.com/stretchr/testify/require"
+	fixtures "github.com/whitequark/go-git-fixtures/v5"
+	"github.com/whitequark/go-git-git/v6/plumbing/cache"
+	"github.com/whitequark/go-git-git/v6/storage"
+	"github.com/whitequark/go-git-git/v6/storage/filesystem"
+	"github.com/whitequark/go-git-git/v6/utils/ioutil"
 )
 
 func testServe[T UploadPackOptions | ReceivePackOptions](

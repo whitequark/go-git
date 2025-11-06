@@ -16,26 +16,26 @@ import (
 	"testing"
 	"time"
 
-	fixtures "github.com/go-git/go-git-fixtures/v5"
-	formatcfg "github.com/go-git/go-git/v6/plumbing/format/config"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
+	fixtures "github.com/whitequark/go-git-fixtures/v5"
+	formatcfg "github.com/whitequark/go-git-git/v6/plumbing/format/config"
 
 	"github.com/ProtonMail/go-crypto/openpgp"
 	"github.com/ProtonMail/go-crypto/openpgp/armor"
 	openpgperr "github.com/ProtonMail/go-crypto/openpgp/errors"
 
-	"github.com/go-git/go-git/v6/config"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/cache"
-	"github.com/go-git/go-git/v6/plumbing/object"
-	"github.com/go-git/go-git/v6/plumbing/protocol/packp"
-	"github.com/go-git/go-git/v6/plumbing/storer"
-	"github.com/go-git/go-git/v6/plumbing/transport"
-	"github.com/go-git/go-git/v6/storage"
-	"github.com/go-git/go-git/v6/storage/filesystem"
-	"github.com/go-git/go-git/v6/storage/memory"
+	"github.com/whitequark/go-git-git/v6/config"
+	"github.com/whitequark/go-git-git/v6/plumbing"
+	"github.com/whitequark/go-git-git/v6/plumbing/cache"
+	"github.com/whitequark/go-git-git/v6/plumbing/object"
+	"github.com/whitequark/go-git-git/v6/plumbing/protocol/packp"
+	"github.com/whitequark/go-git-git/v6/plumbing/storer"
+	"github.com/whitequark/go-git-git/v6/plumbing/transport"
+	"github.com/whitequark/go-git-git/v6/storage"
+	"github.com/whitequark/go-git-git/v6/storage/filesystem"
+	"github.com/whitequark/go-git-git/v6/storage/memory"
 
 	"github.com/go-git/go-billy/v6"
 	"github.com/go-git/go-billy/v6/memfs"
@@ -3465,7 +3465,7 @@ func BenchmarkPlainClone(b *testing.B) {
 	b.StopTimer()
 	clone := func(b *testing.B) {
 		_, err := PlainClone(b.TempDir(), &CloneOptions{
-			URL:          "https://github.com/go-git/go-git.git",
+			URL:          "https://github.com/whitequark/go-git-git.git",
 			Depth:        1,
 			Tags:         plumbing.NoTags,
 			SingleBranch: true,

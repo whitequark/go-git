@@ -10,10 +10,10 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/utils/merkletrie"
-	"github.com/go-git/go-git/v6/utils/merkletrie/noder"
 	"github.com/stretchr/testify/suite"
+	"github.com/whitequark/go-git-git/v6/utils/merkletrie"
+	"github.com/whitequark/go-git-git/v6/utils/merkletrie/noder"
+	"github.com/whitequark/go-git/v6/plumbing"
 
 	"github.com/go-git/go-billy/v6"
 	"github.com/go-git/go-billy/v6/memfs"

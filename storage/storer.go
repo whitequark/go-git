@@ -3,14 +3,14 @@ package storage
 import (
 	"errors"
 
-	"github.com/go-git/go-git/v6/config"
-	"github.com/go-git/go-git/v6/plumbing/storer"
+	"github.com/whitequark/go-git-git/v6/plumbing/storer"
+	"github.com/whitequark/go-git/v6/config"
 )
 
 var ErrReferenceHasChanged = errors.New("reference has changed concurrently")
 
 // Storer is a generic storage of objects, references and any information
-// related to a particular repository. The package github.com/go-git/go-git/v6/storage
+// related to a particular repository. The package github.com/whitequark/go-git-git/v6/storage
 // contains two implementation a filesystem base implementation (such as `.git`)
 // and a memory implementations being ephemeral
 type Storer interface {

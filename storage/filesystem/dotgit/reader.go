@@ -5,9 +5,9 @@ import (
 	"io"
 	"os"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/format/objfile"
-	"github.com/go-git/go-git/v6/utils/ioutil"
+	"github.com/whitequark/go-git-git/v6/plumbing/format/objfile"
+	"github.com/whitequark/go-git-git/v6/utils/ioutil"
+	"github.com/whitequark/go-git/v6/plumbing"
 )
 
 var _ (plumbing.EncodedObject) = &EncodedObject{}

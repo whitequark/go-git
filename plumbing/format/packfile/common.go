@@ -4,9 +4,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/go-git/go-git/v6/plumbing/storer"
-	"github.com/go-git/go-git/v6/utils/ioutil"
-	"github.com/go-git/go-git/v6/utils/trace"
+	"github.com/whitequark/go-git-git/v6/utils/ioutil"
+	"github.com/whitequark/go-git-git/v6/utils/trace"
+	"github.com/whitequark/go-git/v6/plumbing/storer"
 )
 
 var signature = []byte{'P', 'A', 'C', 'K'}

@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/go-git/go-git/v6/plumbing/transport"
-	"github.com/go-git/go-git/v6/utils/trace"
+	"github.com/whitequark/go-git-git/v6/utils/trace"
+	"github.com/whitequark/go-git/v6/plumbing/transport"
 
 	"github.com/kevinburke/ssh_config"
 	"golang.org/x/crypto/ssh"
@@ -146,7 +146,7 @@ func (c *command) connect(ctx context.Context) error {
 		config.HostKeyAlgorithms = db.HostKeyAlgorithms(hostWithPort)
 	} else if len(config.HostKeyAlgorithms) == 0 {
 		// Set the HostKeyAlgorithms based on HostKeyCallback.
-		// For background see https://github.com/go-git/go-git/issues/411 as well as
+		// For background see https://github.com/whitequark/go-git-git/issues/411 as well as
 		// https://github.com/golang/go/issues/29286 for root cause.
 		db, err := newKnownHostsDb()
 		if err != nil {

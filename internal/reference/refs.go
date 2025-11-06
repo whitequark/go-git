@@ -3,8 +3,8 @@ package reference
 import (
 	"io"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/storage"
+	"github.com/whitequark/go-git-git/v6/storage"
+	"github.com/whitequark/go-git/v6/plumbing"
 )
 
 // References returns all references from the storage.

@@ -9,9 +9,9 @@ import (
 	"testing"
 
 	"github.com/go-git/go-billy/v6"
-	fixtures "github.com/go-git/go-git-fixtures/v5"
-	"github.com/go-git/go-git/v6/plumbing"
 	"github.com/stretchr/testify/assert"
+	fixtures "github.com/whitequark/go-git-fixtures/v5"
+	"github.com/whitequark/go-git-git/v6/plumbing"
 )
 
 func TestScan(t *testing.T) {

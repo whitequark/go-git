@@ -7,12 +7,12 @@ import (
 	"os"
 
 	"github.com/go-git/go-billy/v6/osfs"
-	"github.com/go-git/go-git/v6"
-	. "github.com/go-git/go-git/v6/_examples"
-	"github.com/go-git/go-git/v6/plumbing/cache"
-	"github.com/go-git/go-git/v6/plumbing/hash"
-	"github.com/go-git/go-git/v6/storage/filesystem"
-	"github.com/go-git/go-git/v6/utils/trace"
+	. "github.com/whitequark/go-git-git/v6/_examples"
+	"github.com/whitequark/go-git-git/v6/plumbing/cache"
+	"github.com/whitequark/go-git-git/v6/plumbing/hash"
+	"github.com/whitequark/go-git-git/v6/storage/filesystem"
+	"github.com/whitequark/go-git-git/v6/utils/trace"
+	"github.com/whitequark/go-git/v6"
 )
 
 // Expands the Basic example focusing in performance.

@@ -5,11 +5,11 @@ import (
 	"path"
 	"testing"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/format/index"
-	"github.com/go-git/go-git/v6/utils/merkletrie"
-	"github.com/go-git/go-git/v6/utils/merkletrie/noder"
 	"github.com/stretchr/testify/suite"
+	"github.com/whitequark/go-git-git/v6/plumbing/format/index"
+	"github.com/whitequark/go-git-git/v6/utils/merkletrie"
+	"github.com/whitequark/go-git-git/v6/utils/merkletrie/noder"
+	"github.com/whitequark/go-git/v6/plumbing"
 )
 
 type NoderSuite struct {

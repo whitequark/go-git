@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/go-git/go-git/v6/utils/ioutil"
-	"github.com/go-git/go-git/v6/utils/trace"
+	"github.com/whitequark/go-git-git/v6/utils/trace"
+	"github.com/whitequark/go-git/v6/utils/ioutil"
 )
 
 // Write writes a pktline packet.

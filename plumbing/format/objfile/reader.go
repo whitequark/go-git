@@ -5,10 +5,10 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	format "github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/plumbing/format/packfile"
-	"github.com/go-git/go-git/v6/utils/sync"
+	format "github.com/whitequark/go-git-git/v6/plumbing/format/config"
+	"github.com/whitequark/go-git-git/v6/plumbing/format/packfile"
+	"github.com/whitequark/go-git-git/v6/utils/sync"
+	"github.com/whitequark/go-git/v6/plumbing"
 )
 
 var (

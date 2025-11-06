@@ -7,13 +7,13 @@ import (
 	"testing"
 
 	"github.com/go-git/go-billy/v6/osfs"
-	fixtures "github.com/go-git/go-git-fixtures/v5"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/cache"
-	"github.com/go-git/go-git/v6/plumbing/format/idxfile"
-	"github.com/go-git/go-git/v6/plumbing/format/packfile"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	fixtures "github.com/whitequark/go-git-fixtures/v5"
+	"github.com/whitequark/go-git-git/v6/plumbing"
+	"github.com/whitequark/go-git-git/v6/plumbing/cache"
+	"github.com/whitequark/go-git-git/v6/plumbing/format/idxfile"
+	"github.com/whitequark/go-git-git/v6/plumbing/format/packfile"
 )
 
 func TestGet(t *testing.T) {

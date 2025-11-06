@@ -5,13 +5,13 @@ import (
 	"os"
 	"path"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/filemode"
-	format "github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/utils/convert"
-	"github.com/go-git/go-git/v6/utils/ioutil"
-	"github.com/go-git/go-git/v6/utils/merkletrie/noder"
-	"github.com/go-git/go-git/v6/utils/sync"
+	"github.com/whitequark/go-git-git/v6/plumbing/filemode"
+	format "github.com/whitequark/go-git-git/v6/plumbing/format/config"
+	"github.com/whitequark/go-git-git/v6/utils/convert"
+	"github.com/whitequark/go-git-git/v6/utils/ioutil"
+	"github.com/whitequark/go-git-git/v6/utils/merkletrie/noder"
+	"github.com/whitequark/go-git-git/v6/utils/sync"
+	"github.com/whitequark/go-git/v6/plumbing"
 
 	"github.com/go-git/go-billy/v6"
 )

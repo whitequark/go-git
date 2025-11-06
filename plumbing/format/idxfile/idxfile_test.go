@@ -7,9 +7,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/format/idxfile"
 	"github.com/stretchr/testify/suite"
+	"github.com/whitequark/go-git-git/v6/plumbing/format/idxfile"
+	"github.com/whitequark/go-git/v6/plumbing"
 )
 
 func BenchmarkFindOffset(b *testing.B) {

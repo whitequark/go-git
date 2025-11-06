@@ -16,9 +16,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/storage"
-	"github.com/go-git/go-git/v6/utils/ioutil"
+	"github.com/whitequark/go-git-git/v6/storage"
+	"github.com/whitequark/go-git-git/v6/utils/ioutil"
+	"github.com/whitequark/go-git/v6/plumbing"
 
 	"github.com/go-git/go-billy/v6"
 	"github.com/go-git/go-billy/v6/helper/chroot"
@@ -1150,7 +1150,7 @@ func (d *DotGit) AddAlternate(remote string) error {
 
 	if locker, ok := f.(billy.Locker); ok {
 		// locking in windows throws an error, based on comments
-		// https://github.com/go-git/go-git/pull/860#issuecomment-1751823044
+		// https://github.com/whitequark/go-git-git/pull/860#issuecomment-1751823044
 		// do not lock on windows platform.
 		if runtime.GOOS != "windows" {
 			if err = locker.Lock(); err != nil {

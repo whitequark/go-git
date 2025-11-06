@@ -5,8 +5,8 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/go-git/go-git/v6"
-	. "github.com/go-git/go-git/v6/_examples"
+	. "github.com/whitequark/go-git-git/v6/_examples"
+	"github.com/whitequark/go-git/v6"
 )
 
 // Graceful cancellation example of a basic git operation such as Clone.

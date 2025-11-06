@@ -3,9 +3,9 @@ package transactional
 import (
 	"testing"
 
-	"github.com/go-git/go-git/v6/config"
-	"github.com/go-git/go-git/v6/storage/memory"
 	"github.com/stretchr/testify/suite"
+	"github.com/whitequark/go-git-git/v6/storage/memory"
+	"github.com/whitequark/go-git/v6/config"
 )
 
 func TestConfigSuite(t *testing.T) {

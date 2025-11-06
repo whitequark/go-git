@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/go-git/go-git/v6/internal/reference"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/object"
-	"github.com/go-git/go-git/v6/plumbing/storer"
-	"github.com/go-git/go-git/v6/storage"
+	"github.com/whitequark/go-git-git/v6/plumbing"
+	"github.com/whitequark/go-git-git/v6/plumbing/object"
+	"github.com/whitequark/go-git-git/v6/plumbing/storer"
+	"github.com/whitequark/go-git-git/v6/storage"
+	"github.com/whitequark/go-git/v6/internal/reference"
 )
 
 func ExpandRef(s storer.ReferenceStorer, ref plumbing.ReferenceName) (*plumbing.Reference, error) {
@@ -63,7 +63,7 @@ func WriteInfoRefs(w io.Writer, s storage.Storer) error {
 			hash = ref.Hash()
 			fallthrough
 		case plumbing.HashReference:
-			if _, err :=fmt.Fprintf(w, "%s\t%s\n", hash, name); err != nil {
+			if _, err := fmt.Fprintf(w, "%s\t%s\n", hash, name); err != nil {
 				return fmt.Errorf("writing info reference: %w", err)
 			}
 			if name.IsTag() {

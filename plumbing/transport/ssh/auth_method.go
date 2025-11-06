@@ -8,10 +8,10 @@ import (
 	"os/user"
 	"path/filepath"
 
-	"github.com/go-git/go-git/v6/plumbing/transport"
-	"github.com/go-git/go-git/v6/plumbing/transport/ssh/knownhosts"
-	"github.com/go-git/go-git/v6/plumbing/transport/ssh/sshagent"
-	"github.com/go-git/go-git/v6/utils/trace"
+	"github.com/whitequark/go-git-git/v6/plumbing/transport/ssh/knownhosts"
+	"github.com/whitequark/go-git-git/v6/plumbing/transport/ssh/sshagent"
+	"github.com/whitequark/go-git-git/v6/utils/trace"
+	"github.com/whitequark/go-git/v6/plumbing/transport"
 
 	"golang.org/x/crypto/ssh"
 )

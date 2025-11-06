@@ -3,10 +3,10 @@ package filesystem
 import (
 	"os"
 
-	"github.com/go-git/go-git/v6/config"
-	formatcfg "github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/storage/filesystem/dotgit"
-	"github.com/go-git/go-git/v6/utils/ioutil"
+	formatcfg "github.com/whitequark/go-git-git/v6/plumbing/format/config"
+	"github.com/whitequark/go-git-git/v6/storage/filesystem/dotgit"
+	"github.com/whitequark/go-git-git/v6/utils/ioutil"
+	"github.com/whitequark/go-git/v6/config"
 )
 
 type ConfigStorage struct {

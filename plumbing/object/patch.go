@@ -9,10 +9,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/filemode"
-	fdiff "github.com/go-git/go-git/v6/plumbing/format/diff"
-	"github.com/go-git/go-git/v6/utils/diff"
+	"github.com/whitequark/go-git-git/v6/plumbing/filemode"
+	fdiff "github.com/whitequark/go-git-git/v6/plumbing/format/diff"
+	"github.com/whitequark/go-git-git/v6/utils/diff"
+	"github.com/whitequark/go-git/v6/plumbing"
 
 	dmp "github.com/sergi/go-diff/diffmatchpatch"
 )

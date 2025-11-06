@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/go-git/go-git/v6/plumbing/transport"
-	"github.com/go-git/go-git/v6/storage/memory"
 	"github.com/stretchr/testify/require"
+	"github.com/whitequark/go-git-git/v6/storage/memory"
+	"github.com/whitequark/go-git/v6/plumbing/transport"
 
 	"github.com/gliderlabs/ssh"
 	"github.com/kevinburke/ssh_config"

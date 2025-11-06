@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	commitgraph "github.com/go-git/go-git/v6/plumbing/format/commitgraph"
-	"github.com/go-git/go-git/v6/plumbing/object"
-	"github.com/go-git/go-git/v6/plumbing/storer"
+	commitgraph "github.com/whitequark/go-git-git/v6/plumbing/format/commitgraph"
+	"github.com/whitequark/go-git-git/v6/plumbing/object"
+	"github.com/whitequark/go-git-git/v6/plumbing/storer"
+	"github.com/whitequark/go-git/v6/plumbing"
 )
 
 // graphCommitNode is a reduced representation of Commit as presented in the commit

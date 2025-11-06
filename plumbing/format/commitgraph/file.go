@@ -8,9 +8,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/utils/binary"
+	"github.com/whitequark/go-git-git/v6/plumbing/format/config"
+	"github.com/whitequark/go-git-git/v6/utils/binary"
+	"github.com/whitequark/go-git/v6/plumbing"
 )
 
 var (
