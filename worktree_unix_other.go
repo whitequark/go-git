@@ -7,7 +7,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/go-git/go-git/v6/plumbing/format/index"
+	"github.com/whitequark/go-git/v6/plumbing/format/index"
 )
 
 func init() {

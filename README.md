@@ -1,9 +1,9 @@
 ![go-git logo](https://cdn.rawgit.com/src-d/artwork/02036484/go-git/files/go-git-github-readme-header.png)
-[![GoDoc](https://godoc.org/github.com/go-git/go-git/v6?status.svg)](https://pkg.go.dev/github.com/go-git/go-git/v6) [![Build Status](https://github.com/go-git/go-git/workflows/Test/badge.svg)](https://github.com/go-git/go-git/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/go-git/go-git)](https://goreportcard.com/report/github.com/go-git/go-git) [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/go-git/go-git/badge)](https://scorecard.dev/viewer/?uri=github.com/go-git/go-git)
+[![GoDoc](https://godoc.org/github.com/whitequark/go-git/v6?status.svg)](https://pkg.go.dev/github.com/whitequark/go-git/v6) [![Build Status](https://github.com/whitequark/go-git/workflows/Test/badge.svg)](https://github.com/whitequark/go-git/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/whitequark/go-git)](https://goreportcard.com/report/github.com/whitequark/go-git) [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/whitequark/go-git/badge)](https://scorecard.dev/viewer/?uri=github.com/whitequark/go-git)
 
 *go-git* is a highly extensible git implementation library written in **pure Go**.
 
-It can be used to manipulate git repositories at low level *(plumbing)* or high level *(porcelain)*, through an idiomatic Go API. It also supports several types of storage, such as in-memory filesystems, or custom implementations, thanks to the [`Storer`](https://pkg.go.dev/github.com/go-git/go-git/v6/plumbing/storer) interface.
+It can be used to manipulate git repositories at low level *(plumbing)* or high level *(porcelain)*, through an idiomatic Go API. It also supports several types of storage, such as in-memory filesystems, or custom implementations, thanks to the [`Storer`](https://pkg.go.dev/github.com/whitequark/go-git/v6/plumbing/storer) interface.
 
 It's being actively developed since 2015 and is being used extensively by [Keybase](https://keybase.io/blog/encrypted-git-for-everyone), [Gitea](https://gitea.io/en-us/) or [Pulumi](https://github.com/search?q=org%3Apulumi+go-git&type=Code), and by many other libraries and tools.
 
@@ -29,15 +29,15 @@ Installation
 The recommended way to install *go-git* is:
 
 ```go
-import "github.com/go-git/go-git/v6" // with go modules enabled (GO111MODULE=on or outside GOPATH)
-import "github.com/go-git/go-git" // with go modules disabled
+import "github.com/whitequark/go-git/v6" // with go modules enabled (GO111MODULE=on or outside GOPATH)
+import "github.com/whitequark/go-git" // with go modules disabled
 ```
 
 
 Examples
 --------
 
-> Please note that the `CheckIfError` and `Info` functions  used in the examples are from the [examples package](https://github.com/go-git/go-git/blob/master/_examples/common.go#L19) just to be used in the examples.
+> Please note that the `CheckIfError` and `Info` functions  used in the examples are from the [examples package](https://github.com/whitequark/go-git/blob/master/_examples/common.go#L19) just to be used in the examples.
 
 
 ### Basic example
@@ -46,10 +46,10 @@ A basic example that mimics the standard `git clone` command
 
 ```go
 // Clone the given repository to the given directory
-Info("git clone https://github.com/go-git/go-git")
+Info("git clone https://github.com/whitequark/go-git")
 
 _, err := git.PlainClone("/tmp/foo", &git.CloneOptions{
-    URL:      "https://github.com/go-git/go-git",
+    URL:      "https://github.com/whitequark/go-git",
     Progress: os.Stdout,
 })
 
@@ -123,7 +123,7 @@ You can find this [example](_examples/log/main.go) and many others in the [examp
 Contribute
 ----------
 
-[Contributions](https://github.com/go-git/go-git/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) are more than welcome, if you are interested please take a look to
+[Contributions](https://github.com/whitequark/go-git/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) are more than welcome, if you are interested please take a look to
 our [Contributing Guidelines](CONTRIBUTING.md).
 
 License

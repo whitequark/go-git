@@ -35,4 +35,4 @@ The project maintainers will make every effort to promptly address security issu
 
 Once a security vulnerability is fixed, a security advisory will be published to notify users and provide appropriate mitigation measures.
 
-All `go-git` advisories can be found at https://github.com/go-git/go-git/security/advisories.
+All `go-git` advisories can be found at https://github.com/whitequark/go-git/security/advisories.

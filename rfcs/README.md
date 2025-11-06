@@ -42,7 +42,7 @@ As a rule of thumb, receiving encouraging feedback from long-standing project co
 
 In short, to get a major feature added to go-git, one must first get the RFC merged into the RFC repository as a markdown file. At that point the RFC is 'active' and may be implemented with the goal of eventual inclusion into go-git.
 
-1. Fork the go-git repo: https://github.com/go-git/go-git
+1. Fork the go-git repo: https://github.com/whitequark/go-git
 2. Copy `rfcs/0000-template.md` to `rfcs/0000-my-feature.md` (where 'my-feature' is descriptive. Don't assign an RFC number yet).
 3. Fill in the RFC. Put care into the details: RFCs that do not present convincing motivation, demonstrate understanding of the impact of the design, or are disingenuous about the drawbacks or alternatives tend to be poorly-received.
 4. Submit a pull request. As a pull request, the RFC will receive design feedback from the larger community, and the author should be prepared to revise it in response.
@@ -66,4 +66,4 @@ The author of an RFC is not obligated to implement it. Of course, the RFC author
 RFC authors may provide an off-tree implementation of the RFC, specially when they believe it would be helpful to others in understanding and testing it.
 
 [Discord server]: https://discord.gg/8hrxYEVPE5
-[GitHub Issues]: https://github.com/go-git/go-git/issues
+[GitHub Issues]: https://github.com/whitequark/go-git/issues
